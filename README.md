@@ -2,7 +2,8 @@
 An end to end app to classify fashion mnist images using Streamlit interface and deployed as a docker container.
 
 [//]: # (![Docker Build]&#40;https://img.shields.io/docker/build/onyimatics/fashion_mnist_classifier&#41;)
-![Docker Build](https://img.shields.io/docker/cloud/build/onyimatics/fashion_mnist_classifier)
+[//]: # (![Docker Build]&#40;https://img.shields.io/docker/cloud/build/onyimatics/fashion_mnist_classifier&#41;)
+[![Render](https://img.shields.io/badge/Live%20Demo-Render-brightgreen?style=for-the-badge&logo=render)](https://fashion-mnist-classification-app.onrender.com/)
 ![Docker Build](https://img.shields.io/docker/automated/onyimatics/fashion_mnist_classifier)
 ![Docker Pulls](https://img.shields.io/docker/pulls/onyimatics/fashion_mnist_classifier)
 ![Docker Size](https://img.shields.io/docker/image-size/onyimatics/fashion_mnist_classifier)
@@ -18,9 +19,15 @@ An end to end app to classify fashion mnist images using Streamlit interface and
 
 A containerized Streamlit application running with Python 3.10.
 
-## Deployed Image on Docker Hub:
-### [onyimatics/fashion_mnist_classifier](https://hub.docker.com/r/onyimatics/fashion_mnist_classifier)
+## Deployment
 
+This application is deployed on Render using Docker. The Docker image is available on Docker Hub at [onyimatics/fashion_mnist_classifier](https://hub.docker.com/r/onyimatics/fashion_mnist_classifier).
+
+## Live Demo
+
+The application is deployed and accessible at [https://fashion-mnist-classification-app.onrender.com/](https://fashion-mnist-classification-app.onrender.com/)
+
+![Demo Screenshot](fashion_mnist_app_live_demo.png)
 
 ## Requirements
 
