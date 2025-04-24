@@ -1,9 +1,26 @@
 # fashion_mnist_classification_app
 An end to end app to classify fashion mnist images using Streamlit interface and deployed as a docker container.
 
+[//]: # (![Docker Build]&#40;https://img.shields.io/docker/build/onyimatics/fashion_mnist_classifier&#41;)
+![Docker Build](https://img.shields.io/docker/cloud/build/onyimatics/fashion_mnist_classifier)
+![Docker Build](https://img.shields.io/docker/automated/onyimatics/fashion_mnist_classifier)
+![Docker Pulls](https://img.shields.io/docker/pulls/onyimatics/fashion_mnist_classifier)
+![Docker Size](https://img.shields.io/docker/image-size/onyimatics/fashion_mnist_classifier)
+![GitHub Repo watchers](https://img.shields.io/github/watchers/onyimatics/fashion_mnist_classification_app?style=social)
+![GitHub Repo license](https://img.shields.io/github/license/onyimatics/fashion_mnist_classification_app)
+![GitHub last commit](https://img.shields.io/github/last-commit/onyimatics/fashion_mnist_classification_app)
+![GitHub contributors](https://img.shields.io/github/contributors/onyimatics/fashion_mnist_classification_app)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onyimatics/fashion_mnist_classification_app)
+![GitHub top language](https://img.shields.io/github/languages/top/onyimatics/fashion_mnist_classification_app)
+![GitHub language count](https://img.shields.io/github/languages/count/onyimatics/fashion_mnist_classification_app)
+
 # Streamlit Application
 
 A containerized Streamlit application running with Python 3.10.
+
+## Deployed Image on Docker Hub:
+### [onyimatics/fashion_mnist_classifier](https://hub.docker.com/r/onyimatics/fashion_mnist_classifier)
+
 
 ## Requirements
 
@@ -58,7 +75,15 @@ cd <repository-name>
 ```bash
 cd app
 ```
-3. Build the Docker image:
+## Option A: Pull the pre-built image from Docker Hub:
+```bash
+docker pull onyimatics/fashion_mnist_classifier:v1.0
+```
+3. Then Run the Docker container:
+```bash
+docker run -p 80:80 onyimatics/fashion_mnist_classifier:v1.0
+```
+## Option B: Build the Docker image locally:
 ```bash
 docker build -t fashion-mnist-app .
 ```
