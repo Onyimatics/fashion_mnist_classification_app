@@ -25,7 +25,8 @@ This application is deployed on Render using Docker. The Docker image is availab
 
 ## Live Demo
 
-The application is deployed and accessible at [https://fashion-mnist-classification-app.onrender.com/](https://fashion-mnist-classification-app.onrender.com/)
+> - Streamlit Deployment: https://onyimatics-fashion-mnist-classification-app-appmain-6abmgz.streamlit.app/
+> - Render Deployment: [https://fashion-mnist-classification-app.onrender.com/](https://fashion-mnist-classification-app.onrender.com/)
 
 ![Demo Screenshot](fashion_mnist_app_live_demo.png)
 
